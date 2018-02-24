@@ -23,10 +23,8 @@ Control each falling piece using the `A` or `LEFT` keys to move left and `D` or 
 
 Press `P` to enter the `Pause` screen. Then, press any key to return, or hit `esc` to quit game.
 
-## Setup
-To be added
 ## Rules
-To be added
+Move any of the pieces down, trying to fill a row with squares to score. Run out of space and it's `game over`. The pieces are randomly generated but the next piece will be shown on the right. The difficulty goes up as your score increases, speeding up the fall of each piece.
 
 ## Acknowledgements
 The music and fonts in this game were used under the Creative Commons license. 
