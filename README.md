@@ -1,5 +1,6 @@
 # Tetris
 Full featured Tetris game with music and color. Written in Python with pygame.
+
 ![Alt text](Title.png?raw=true "Title")
 ## Installation
 This game requires Python3 and Pygame to launch. Compatability with Python2 has not been tested.
