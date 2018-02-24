@@ -1,5 +1,6 @@
 # Tetris
 Full featured Tetris game with music and color. Written in Python with pygame.
+
 ![Alt text](Screen1.png?raw=true "Screenshot")
 
 ## Installation
