@@ -1,7 +1,7 @@
 # Tetris
 Full featured Tetris game with music and color. Written in Python with pygame.
+![Alt text](Screen1.png?raw=true "Screenshot")
 
-![Alt text](Title.png?raw=true "Title")
 ## Installation
 This game requires Python3 and Pygame to launch. Compatability with Python2 has not been tested.
 
@@ -19,8 +19,11 @@ Doing so will launch a Pygame window that runs the game.
 ## Start
 In the startup screen displaying `Tetris (press any key to continue)`, follow the prompt and press any key to start the game.
 
+![Alt text](Title.png?raw=true "Title")
 ## Controls
 Control each falling piece using the `A` or `LEFT` keys to move left and `D` or `RIGHT` keys to move right. Press `S` or `DOWN` to accelerate the fall or `SPACE` to teleport the piece to the bottom. Press 'UP' or `E` to rotate the piece clockwise or `Q` to rotate counter-clockwise. 
+
+![Alt text](Screen2.png?raw=true "Screenshot")
 
 After reaching `game over`, press any key to restart. Press `R` at anytime to switch the music if you don't like the randomly picked one.
 
