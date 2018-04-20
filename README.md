@@ -36,11 +36,12 @@ After reaching `game over`, press any key to restart. Press `R` at anytime to sw
 Press `P` to enter the `Pause` screen. Then, press any key to return, or hit `esc` to quit game.
 
 ## 2-Player Controls
-Player 1 (on the left) moves blocks using 'A-S-D' as in Single Player. 'W' rotates the piece clockwise and 'Q' rotates it counter clockwise. 'SPACE' teleports the piece to the bottom. 
+Player 1 (on the left) moves blocks using `A-S-D` as in Single Player. `W` rotates the piece clockwise and `Q` rotates it counter clockwise. `SPACE` teleports the piece to the bottom. 
 
-Player 2 (on the right) loves using the arrow keys 'LEFT-RIGHT-DOWN' to move the blocks. 'UP' rotates the piece clockwise and the 'SLASH' key (aka the '?' key) rotates it counterclockwise. 'RIGHT-SHIFT' sends the piece to the bottom. 
+Player 2 (on the right) loves using the arrow keys `LEFT-RIGHT-DOWN` to move the blocks. `UP` rotates the piece clockwise and the `SLASH` key (aka the `?` key) rotates it counterclockwise. `RIGHT-SHIFT` sends the piece to the bottom. 
 
 ![Alt text](Screen3.png?raw=true "2P Screenshot")
+
 ## Rules
 Move any of the pieces down, trying to fill a row with squares to score. Run out of space and it's `game over`. The pieces are randomly generated but the next piece will be shown on the right. The difficulty goes up as your score increases, speeding up the fall of each piece. Each filled in row adds `1` to `score`.
 
