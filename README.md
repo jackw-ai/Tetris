@@ -1,5 +1,5 @@
 # Tetris
-Full featured Tetris game with music and color. Written in Python with pygame.
+Full featured Tetris game with music and color. Written in Python with pygame. Updated with two player competitive mode!
 
 ![Alt text](Screen1.png?raw=true "Screenshot")
 
@@ -17,11 +17,16 @@ Python3 Tetris.py
 ```
 Doing so will launch a Pygame window that runs the game. 
 
+To play 2 player mode, type
+```sh
+Python3 ctetris.py
+```
+
 ## Start
 In the startup screen displaying `Tetris (press any key to continue)`, follow the prompt and press any key to start the game.
 
 ![Alt text](Title.png?raw=true "Title")
-## Controls
+## Single Player Controls
 Control each falling piece using the `A` or `LEFT` keys to move left and `D` or `RIGHT` keys to move right. Press `S` or `DOWN` to accelerate the fall or `SPACE` to teleport the piece to the bottom. Press 'UP' or `E` to rotate the piece clockwise or `Q` to rotate counter-clockwise. 
 
 ![Alt text](Screen2.png?raw=true "Screenshot")
@@ -30,8 +35,17 @@ After reaching `game over`, press any key to restart. Press `R` at anytime to sw
 
 Press `P` to enter the `Pause` screen. Then, press any key to return, or hit `esc` to quit game.
 
+## 2-Player Controls
+Player 1 (on the left) moves blocks using 'A-S-D' as in Single Player. 'W' rotates the piece clockwise and 'Q' rotates it counter clockwise. 'SPACE' teleports the piece to the bottom. 
+
+Player 2 (on the right) loves using the arrow keys 'LEFT-RIGHT-DOWN' to move the blocks. 'UP' rotates the piece clockwise and the 'SLASH' key (aka the '?' key) rotates it counterclockwise. 'RIGHT-SHIFT' sends the piece to the bottom. 
+
+![Alt text](Screen3.png?raw=true "2P Screenshot")
 ## Rules
 Move any of the pieces down, trying to fill a row with squares to score. Run out of space and it's `game over`. The pieces are randomly generated but the next piece will be shown on the right. The difficulty goes up as your score increases, speeding up the fall of each piece. Each filled in row adds `1` to `score`.
+
+## 2P Rules
+In addition to the same rules as in single player, when a player clears a level, the opponent's floor is raised by one and the bottom floor will have a randomly generated row (not entirely filled) of blocks.
 
 ## Acknowledgements
 The music and fonts in this game were used under the Creative Commons license. 
