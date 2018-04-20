@@ -45,7 +45,7 @@ Player 2 (on the right) loves using the arrow keys `LEFT-RIGHT-DOWN` to move the
 ## Rules
 Move any of the pieces down, trying to fill a row with squares to score. Run out of space and it's `game over`. The pieces are randomly generated but the next piece will be shown on the right. The difficulty goes up as your score increases, speeding up the fall of each piece. Each filled in row adds `1` to `score`.
 
-## 2P Rules
+## 2-Player Rules
 In addition to the same rules as in single player, when a player clears a level, the opponent's floor is raised by one and the bottom floor will have a randomly generated row (not entirely filled) of blocks.
 
 ## Acknowledgements
